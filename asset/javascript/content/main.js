@@ -48,3 +48,12 @@ ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img, .service-container, .portofolio-box, .contact form', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
+
+// function toggleNavbar() {
+//     var x = document.getElementById("navbar");
+//     if (x.className === "navbar") {
+//       x.className += " responsive";
+//     } else {
+//       x.className = "navbar";
+//     }
+//   }
