@@ -500,12 +500,11 @@ span{
     }
 
     .about{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .about img{
-        width: 70vw;
-        margin-top: 1rem;
+        width: 100vw;
     }
 
     .service h2{
