@@ -1,201 +1,292 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teshikaaa</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vindra Arya Yulian</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- css -->
     <link rel="stylesheet" href="../asset/css/content/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/0a267e6f70.js" crossorigin="anonymous"></script>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="main-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <h4 class="mb-0">Vindra Arya <span class="text-primary">Yulian</span></h4>
+                </a>
 
-</head>
-<body style="background: #1f242d;">
-    
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid ">
-          <a class="navbar-brand text-white" href="#">Tehiskaaa</a>
-          <button class="navbar-toggler" style="background-color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" ></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav text-white ms-auto p-4">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#service">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#portofolio">Portofolio</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+                <!-- menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <ul class="navbar-nav mx-auto">
+                        <li>
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#aboutme" class="nav-link">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#skill" class="nav-link">Skill</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio" class="nav-link">Portofolio</a>
+                        </li>
+                    </ul>
+                </div>
 
-    <!-- Content -->
-    <!-- hero -->
-    <section class="home" id="home">
-        <div class="home-content text-white">
-            <h3>Hello It's Me</h3>
-            <h1>Vindra Arya Yulian</h1>
-            <h3>And I'm a <span>Frontend Developer</span></h3>
-            <p>Saya adalah seorang programmer yang berdedikasi dan berpengetahuan luas, siap menghadirkan solusi teknologi yang kreatif dan efisien.</p>
-            <div class="social-media">
-                <a href="https://www.instagram.com/vindraaaln._?igsh=ZG1zbDhtcnB6eGhs"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://github.com/vindrayulian"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.tiktok.com/@vindrayulian?_t=8jxka8XcRui&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                <!-- button -->
+                <div class="ms-auto d-none d-lg-block">
+                    <a class="colored-btn" href="#contact">Contact Now</a>
+                </div>
+                <!-- mobile menu -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-        </div>
-        <div class="home-img">
-            <img src="../asset/img/content/fotopribadi/vindra-removebg-preview.png" width="470px" alt="">
-        </div>
-    </section>
-    <!-- end hero -->
+        </nav>
+    </header>
 
-    <!-- About -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="../asset/img/content/fotopribadi/arya-removebg-preview.png" alt="">
-        </div>
-
-        <div class="about-content text-white">
-            <h2 class="heading text-white">About <span>Me</span></h2>
-            <h3>Frontend Developer</h3>
-            <p>
-                Vindra Arya Yulian, lahir di kota Banyumas pada tanggal 25 Juli 2006, saya seorang siswa di SMK Negeri 1 Purwokerto. Dengan ketertarikannya yang mendalam pada dunia teknologi, Saya telah menunjukkan dedikasi yang luar biasa dalam mengembangkan keterampilan pemrograman dan teknologi informasi. Dukungan dari lingkungan belajarnya di SMK Negeri 1 Purwokerto telah memperkaya pengetahuannya dan memperluas wawasan serta kemampuannya dalam menghadapi tantangan di bidang ini. </p>
-                <a href="" class="btn fw-bold" style="background: rgb(0, 247, 255);">Read More</a>
-                <a href="../asset/file/cv.pdf" class="btn fw-bold" style="background: rgb(0, 247, 255);">see CV</a>
-        </div>
-    </section>
-    <!-- end about -->
-
-    <!-- service -->
-    <section class="service" id="service">
-        <h2 class="heading text-white">Our <span>Service</span></h2>
-
-        <div class="service-container text-white">
-            <div class="service-box">
-                <i class="fa-solid fa-code"></i>
-                <h3>Web Development</h3>
-                <p>Ahli dalam HTML, CSS, JavaScript, React, Node.js, SQL, Git, responsif, debugging, dan pengujian.</p>
-                <a href="" class="btn fw-bold" style="background: rgb(0, 247, 255);">Read More</a>
-            </div>
-            <div class="service-box">
-                <i class="fa-solid fa-paintbrush"></i>
-                <h3>Design Web</h3>
-                <p>Menguasai desain web dengan kreativitas, kecermatan, dan keahlian dalam UX/UI.</p>
-                <a href="" class="btn fw-bold" style="background: rgb(0, 247, 255);">Read More</a>
-            </div>
-            <div class="service-box">
-                <i class="fa-brands fa-wordpress"></i>
-                <h3>Wordpress</h3>
-                <p>dapat menggunakan penggunaan WordPress untuk mengembangkan situs web yang dinamis, fungsional.</p>
-                <a href="" class="btn fw-bold" style="background: rgb(0, 247, 255);">Read More</a>
-            </div>
-        </div>
-    </section>
-    <!-- end service -->
-
-    <!-- portofolio -->
-    <section class="portofolio" id="portofolio">
-        <h2 class="heading text-white">Latest <span>Project</span></h2>
-
-        <div class="portofolio-container text-white">
-            <div class="portofolio-box">
-                <img src="../asset/img/content/project/portofolio.png" alt="">
-                <div class="portofolio-layer">
-                    <h4>Pameran Game</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nesciunt!</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    <!-- main -->
+    <main>
+        <section id="home" class="home-section bg-gray">
+            <div class="container">
+                <div class="anim-elements">
+                    <div class="anim-element"><i class="bx bxl-html5"></i></div>
+                    <div class="anim-element"><i class="bx bxl-css3"></i></div>
+                    <div class="anim-element"><i class="bx bxl-react"></i></div>
+                </div>
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h6>Hallo, Saya Vindra Arya Yulian</h6>
+                            <h1>Saya Merupakan <span id="type-it">FrontEnd Developer</span></h1>
+                            <p>Fresh Graduate</p>
+                            <a href="#aboutme" class="colored-btn mt-1">
+                                About Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="../asset/img/content/fotopribadi/vindra.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="portofolio-box">
-                <img src="../asset/img/content/project/akl.png" alt="">
-                <div class="portofolio-layer">
-                    <h4>Pameran Game</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nesciunt!</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="portofolio-box">
-                <img src="../asset/img/content/project/dinorun.jpeg" alt="">
-                <div class="portofolio-layer">
-                    <h4>Pameran Game</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nesciunt!</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="portofolio-box">
-                <img src="../asset/img/content/project/hellowen.png" alt="">
-                <div class="portofolio-layer">
-                    <h4>Pameran Game</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nesciunt!</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="portofolio-box">
-                <img src="../asset/img/content/project/pamerangame.png" alt="">
-                <div class="portofolio-layer">
-                    <h4>Pameran Game</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nesciunt!</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="portofolio-box">
-                <img src="../asset/img/content/project/perpus.png" alt="">
-                <div class="portofolio-layer">
-                    <h4>Pameran Game</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nesciunt!</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end portofolio -->
+        </section>
 
-    <!-- contact -->
-    <!-- <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+        <!-- about -->
+        <section id="aboutme" class="section">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-lg-6 text-center">
+                        <img src="../asset/img/content/fotopribadi/vindraaboutremovebg.png" alt="">
+                    </div>
+                    <div class="col-lg-6 ps-lg-5">
+                        <div class="about-text">
+                            <h3 class="h1 mb-3-text-dark fw-semibold">
+                                Saya Merupakan Lulusan SMK Negeri 1 Purwokerto
+                            </h3>
+                            <p>Vindra Arya Yulian, lahir di kota Banyumas pada tanggal 25 Juli 2006, saya lulusan SMK Negeri 1 Purwokerto tahun 2024. Dengan ketertarikannya yang mendalam pada dunia teknologi, Saya telah menunjukkan dedikasi yang luar biasa dalam mengembangkan keterampilan pemrograman dan teknologi informasi. Dukungan dari lingkungan belajarnya di SMK Negeri 1 Purwokerto telah memperkaya pengetahuannya dan memperluas wawasan serta kemampuannya dalam menghadapi tantangan di bidang ini.</p>
+                            <div class="row pt-2">
+                                <div class="col-6 col-md-4">
+                                    <a href="#portofolio" class="colored-btn mt-1">
+                                        My Project
+                                    </a>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <a href="../asset/file/CV Vindra Arya Yulian.pdf" class="colored-btn mt-1">
+                                        See CV
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+        </section>
+
+        <!-- service -->
+        <section id="section" class="section bg-gray" style="background-image: url('../asset/img/content/bacground/bg-1.jpg'); background-repeat: no-repeat; background-size: cover;">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>My Service</h3>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="feature-box bg-1">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Desain</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi sapiente similique voluptas possimus dolores!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-2">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Desain</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi sapiente similique voluptas possimus dolores!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-3">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Desain</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi sapiente similique voluptas possimus dolores!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box bg-4">
+                            <div class="icon"><i class="bx bx-brush"></i></div>
+                            <div class="content">
+                                <h5>Web Desain</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nisi sapiente similique voluptas possimus dolores!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section> -->
-    <!-- end contact -->
+        </section>
 
-    <!-- footer -->
-    <footer class="footer text-white">
-        <div class="footer-text">
-            <p> &copy; Teshikaaa 2024 | by Vindra Arya Yulian. </p>
-        </div>
+        <!-- skill -->
+        <section id="skill" class="section">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="">
+                        <div class="section-heading text-center">
+                            <h3>My Skill</h3>
+                        </div>
+                        <div class="skill-box">
+                            <div class="row g-3">
+                                <div class="col-6 col-md-4 col-lg-4">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon"><i class="bx bxl-html5"></i></div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon"><i class="bx bxl-html5"></i></div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon"><i class="bx bxl-html5"></i></div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon"><i class="bx bxl-html5"></i></div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon"><i class="bx bxl-html5"></i></div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-4">
+                                    <div class="feature-box feature-box-small bg-1">
+                                        <div class="icon"><i class="bx bxl-html5"></i></div>
+                                        <h6>HTML</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="footer-icon">
-            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
-        </div>
-    </footer> 
-    <!-- end footer -->
+        <!-- project -->
+        <section id="portofolio" class="section bg-gray">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>Lates Project</h3>
+                </div>
+                <div class="portofolio-box">
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portofolio-img">
+                                <img src="../asset/img/content/project/exhibition.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portofolio-text">
+                                <span>Web</span>
+                                <h4>Website RPL Exhibition SMK Negeri 1 Purwokerto</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam obcaecati repellat architecto perspiciatis deleniti cupiditate inventore debitis similique repudiandae?</p>
+                                <a href="https://rplexhibition.smkn1purwokerto.sch.id" class="colored-btn mt-1">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portofolio-img">
+                                <img src="../asset/img/content/project/webperpustakaan.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portofolio-text">
+                                <span>Web</span>
+                                <h4>Website Perpustakaan SMK Negeri 1 Purwokerto</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam obcaecati repellat architecto perspiciatis deleniti cupiditate inventore debitis similique repudiandae?</p>
+                                <a href="https://rplexhibition.smkn1purwokerto.sch.id" class="colored-btn mt-1">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portofolio-img">
+                                <img src="../asset/img/content/project/akl.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+                            <div class="portofolio-text">
+                                <span>Web</span>
+                                <h4>Website RPL Exhibition SMK Negeri 1 Purwokerto</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In laboriosam obcaecati repellat architecto perspiciatis deleniti cupiditate inventore debitis similique repudiandae?</p>
+                                <a href="https://rplexhibition.smkn1purwokerto.sch.id" class="colored-btn mt-1">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 
     <!-- script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="../asset/javascript/content/main.js"></script>
-</body>
+    <link rel="stylesheet" href="../asset/javascript/content/main.js">
+
+    <!-- jquery -->
+    <link rel="stylesheet" href="../asset/vendor/jquery/jquery-3.7.1.min.js">
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
