@@ -473,6 +473,10 @@ main{
     background-color: #8DECB4;
 }
 
+.bg-2{
+    background-color: #e0dd32;
+}
+
 .feature-box-small{
     padding: 15px;
     align-items: center;
