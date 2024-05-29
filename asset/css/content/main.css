@@ -474,7 +474,31 @@ main{
 }
 
 .bg-2{
-    background-color: #e0dd32;
+    background-color: #FF9A00;
+}
+
+.bgs-1{
+    background-color: #FF9A00;
+}
+
+.bgs-2{
+    background-color: #7E8EF1;
+}
+
+.bgs-3{
+    background-color: #cb612f;
+}
+
+.bgs-4{
+    background-color: #FFBF00;
+}
+
+.bgs-5{
+    background-color: #FF0000;
+}
+
+.bgs-6{
+    background-color: #615EFC;
 }
 
 .feature-box-small{
@@ -493,7 +517,7 @@ main{
 
 .feature-box-small h6{
     margin: 0;
-    color: var(--dark-color);
+    color: #fff;
     padding-left: 15px;
 }
 
