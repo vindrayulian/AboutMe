@@ -494,11 +494,23 @@ main{
 }
 
 .bgs-5{
-    background-color: #FF0000;
+    background-color: #2200ff;
 }
 
 .bgs-6{
     background-color: #615EFC;
+}
+
+.bgs-7{
+    background-color: #FF0000;
+}
+
+.bgs-8{
+    background-color: #3c3b3c;
+}
+
+.bgs-9{
+    background-color: #6c7401;
 }
 
 .feature-box-small{
