@@ -7,10 +7,10 @@ $(window).on("scroll", function() {
     }
 });
 
-// $(document).ready(function() {
-//     new Typed('#type-it', {
-//         strings: ['FrontEnd Developer'],
-//         typeSpeed: 100,
-//         loop: true
-//     });
-// });
+$(document).ready(function() {
+    new Typed('#type-it', {
+        strings: ['Developer'],
+        typeSpeed: 100,
+        loop: true
+    });
+});
